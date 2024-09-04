@@ -34,7 +34,8 @@ imshow(frame50); colorbar; axis on
 
 hold on
 
-posLevels = 10:20:90; negLevels = -90:20:-10;
+posLevels = 10:20:90; negLevels = -90:20:-10; 
+powlevels = 1000:1000:5000;
 
 % Real part is crests and trofs, imag is gradients, abs is a magnitude map 
 contour( real(spec(:,:,10,7)), LevelList=posLevels,EdgeColor='red' );

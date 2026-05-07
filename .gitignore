@@ -127,8 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+<<<<<<< Updated upstream
 DATA/.DS_Store
+=======
+>>>>>>> Stashed changes
 .DS_Store
-*.asv
-*.asv
 *.asv
